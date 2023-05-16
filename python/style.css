@@ -84,3 +84,34 @@
     background-color: #fff;
   }
   
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 9999;
+    transition: opacity 0.3s ease;
+  }
+  
+  .whatsapp-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .animated {
+    animation-duration: 1s;
+  }
+  
+  .bounceInRight {
+    animation-name: bounceInRight;
+  }
+  
+  
+  
